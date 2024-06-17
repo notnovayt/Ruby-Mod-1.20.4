@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rubymod",
+	"version": "${version}",
+	"name": "Ruby Mod",
+	"description": "This is a Minecraft Mod which adds a new mineral to the game, rubies!",
+	"authors": [
+		"Surya Rounak!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/rubymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.surya.rubymod.RubyMod"
+		],
+		"client": [
+			"net.surya.rubymod.RubyModClient"
+		],
+		"fabric-datagen": [
+			"net.surya.rubymod.RubyModDataGenerator"
+		]
+	},
+	"mixins": [
+		"rubymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
