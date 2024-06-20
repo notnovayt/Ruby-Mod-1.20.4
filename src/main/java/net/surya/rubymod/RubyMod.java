@@ -2,6 +2,7 @@ package net.surya.rubymod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItemGroups;
 import net.surya.rubymod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,8 @@ public class RubyMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
