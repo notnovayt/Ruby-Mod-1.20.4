@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rubymod:raw_ruby_block",
+          "name": "rubymod:raw_ruby_block"
 
         }
       ],
