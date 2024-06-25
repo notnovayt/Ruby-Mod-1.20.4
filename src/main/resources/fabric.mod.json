@@ -23,6 +23,9 @@
 		],
 		"fabric-datagen": [
 			"net.surya.rubymod.RubyModDataGenerator"
+		],
+		"datagen": [
+			"net.surya.rubymod.RubyModDataGenerator"
 		]
 	},
 	"mixins": [
