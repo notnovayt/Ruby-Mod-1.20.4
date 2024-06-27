@@ -32,7 +32,7 @@ public class SoundBlock extends Block {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
-        tooltip.add(Text.translatable("tooltip.rubymod.soundblock.tooltip"));
+        tooltip.add(Text.translatable("tooltip.rubymod.sound_block.tooltip"));
         super.appendTooltip(stack, world, tooltip, options);
     }
 }
