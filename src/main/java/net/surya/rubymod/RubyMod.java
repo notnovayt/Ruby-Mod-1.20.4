@@ -2,6 +2,7 @@ package net.surya.rubymod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItemGroups;
 import net.surya.rubymod.item.ModItems;
@@ -18,5 +19,7 @@ public class RubyMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
