@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "rubymod:ruby_ore",
+    "rubymod:deepslate_ruby_ore",
+    "rubymod:end_stone_ruby_ore",
+    "rubymod:nether_ruby_ore",
+    "#minecraft:gold_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:coal_ores"
+  ]
+}
