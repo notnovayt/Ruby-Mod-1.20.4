@@ -19,7 +19,7 @@ import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItems;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
-    protected ModLootTableProvider(FabricDataOutput dataOutput) {
+    public ModLootTableProvider(FabricDataOutput dataOutput) {
         super(dataOutput);
     }
 
