@@ -1,8 +1,17 @@
-// 1.20.1	2024-06-29T18:01:39.5001077	Ruby Mod/Block Loot Tables
-3423c26f525932d9c58989c10918da387db64c3c data\rubymod\loot_tables\blocks\sound_block.json
+// 1.20.1	2024-06-29T19:08:49.1799378	Ruby Mod/Block Loot Tables
+c87fb684e72397908833355b94c570f6f739c7fc data\rubymod\loot_tables\blocks\ruby_pressure_plate.json
+7b2701cbc4838f8b0483d4bc7a2d07a9586b139c data\rubymod\loot_tables\blocks\ruby_fence.json
 b37842131cca05b63449f678f1e9f1ffa8d96cc4 data\rubymod\loot_tables\blocks\ruby_ore.json
+73834e6e807589d3307acba1abc8b1d7345c644e data\rubymod\loot_tables\blocks\ruby_button.json
+79176ca267c3b995f5383baedf2275b598e3c727 data\rubymod\loot_tables\blocks\ruby_door.json
 840483a41fbb61e450c3e12bf8c0a9a34bff2bc8 data\rubymod\loot_tables\blocks\deepslate_ruby_ore.json
 bacf9678b363873c0f67f22f6a95f9965c78cd92 data\rubymod\loot_tables\blocks\raw_ruby_block.json
-9cc10874ea848545b497b5f7f83526c399d0ac07 data\rubymod\loot_tables\blocks\ruby_block.json
 d547357c51c26814582f3973a2bc92c57118845e data\rubymod\loot_tables\blocks\nether_ruby_ore.json
+79fb257729cd81c7cc9b139548caf765aa4b875d data\rubymod\loot_tables\blocks\ruby_slab.json
+3423c26f525932d9c58989c10918da387db64c3c data\rubymod\loot_tables\blocks\sound_block.json
+eb5fb7bf64b582028a48c445244b7edc19a66552 data\rubymod\loot_tables\blocks\ruby_wall.json
+9cc10874ea848545b497b5f7f83526c399d0ac07 data\rubymod\loot_tables\blocks\ruby_block.json
 f66638a10a8286aa2664fd25a38a65ebe7cdf860 data\rubymod\loot_tables\blocks\end_stone_ruby_ore.json
+14c0c623814e3e28e42b7dd28f0460ab47e8b72e data\rubymod\loot_tables\blocks\ruby_stairs.json
+6884483cc783c53a5d3a24371c91fdbfeedf02d0 data\rubymod\loot_tables\blocks\ruby_fence_gate.json
+79bb0f222a4f39de36c7c58ea9c4b208b9b4d2f5 data\rubymod\loot_tables\blocks\ruby_trapdoor.json
