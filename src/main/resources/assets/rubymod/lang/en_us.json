@@ -16,11 +16,21 @@
   "block.rubymod.end_stone_ruby_ore": "End Stone Ruby Ore",
   "block.rubymod.nether_ruby_ore": "Nether Ruby Ore",
 
+  "block.rubymod.ruby_stairs": "Ruby Stairs",
+  "block.rubymod.ruby_slab": "Ruby Slab",
+  "block.rubymod.ruby_door": "Ruby Door",
+  "block.rubymod.ruby_trapdoor": "Ruby Trapdoor",
+  "block.rubymod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.rubymod.ruby_button": "Ruby Button",
+  "block.rubymod.ruby_fence": "Ruby Fence",
+  "block.rubymod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.rubymod.ruby_wall": "Ruby Wall",
+
   "block.rubymod.sound_block": "Sound Block",
 
   "tooltip.rubymod.metal_detector.tooltip" : "Finds valuable ores underground",
 
-  "tooltip.rubymod.soundblock.tooltip" : "Plays a sound when right-clicked",
+  "tooltip.rubymod.sound_block.tooltip" : "Plays a sound when right-clicked",
 
   "itemgroup.ruby": "Ruby Mod Group"
 }

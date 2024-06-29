@@ -1,0 +1,4 @@
+// 1.20.1	2024-06-29T18:01:39.502108	Ruby Mod/Tags for minecraft:block
+da7abe66afae3192eaf40b6e6b9a27feb00cc106 data\minecraft\tags\blocks\mineable\pickaxe.json
+eceaf4ad0bcb24189110b8aa38477a8881dac802 data\rubymod\tags\blocks\metal_detector_detectable_blocks.json
+da7abe66afae3192eaf40b6e6b9a27feb00cc106 data\minecraft\tags\blocks\needs_iron_tool.json
