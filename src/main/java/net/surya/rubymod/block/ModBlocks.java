@@ -50,9 +50,9 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block RUBY_DOOR = registerBlock("ruby_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), BlockSetType.IRON));
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR), BlockSetType.IRON));
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), BlockSetType.IRON));
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR), BlockSetType.IRON));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
