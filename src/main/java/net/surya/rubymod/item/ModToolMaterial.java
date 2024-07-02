@@ -1,6 +1,5 @@
 package net.surya.rubymod.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -8,17 +7,16 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     RUBY(5, 650, 4.5f, 3.5f, 26,
-            () -> Ingredient.ofItems(ModItems.RUBY))
-    ;
+            () -> Ingredient.ofItems(ModItems.RUBY));
 
     private final int miningLevel;
     private final int itemDurability;
-    private final int miningSpeed;
-    private final int attackDamage;
+    private final float miningSpeed;
+    private final float attackDamage;
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, int miningSpeed, int attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

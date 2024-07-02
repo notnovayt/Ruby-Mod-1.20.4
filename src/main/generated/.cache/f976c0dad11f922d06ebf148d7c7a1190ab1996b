@@ -1,5 +1,6 @@
-// 1.20.1	2024-06-29T19:08:49.173974	Ruby Mod/Model Definitions
+// 1.20.1	2024-07-02T16:54:46.7895705	Ruby Mod/Model Definitions
 1629fa7e0db8144e4d34b05ed6abbd1737113e10 assets\rubymod\models\block\ruby_trapdoor_top.json
+e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets\rubymod\models\item\ruby_shovel.json
 043edf658febf323c30cabd378eaddae19151f70 assets\rubymod\models\item\metal_detector.json
 8c0d0d9dc2169515213647f463082577e5e806cb assets\rubymod\blockstates\sound_block.json
 c251cf01ed1cc006e6f846ed0695146d9252a205 assets\rubymod\blockstates\ruby_pressure_plate.json
@@ -18,6 +19,8 @@ a5fb811d0150eb8f6e10884fbe2d116da4a06c75 assets\rubymod\models\block\ruby_fence_
 c81e8f2c15896c2a2687a10254bcb47cfef083c7 assets\rubymod\blockstates\ruby_fence.json
 10f75e1bda7032dd9e226749f9825a2c03d13b61 assets\rubymod\models\block\ruby_button.json
 18239173b6d834b59c07aeee260ba774bfe36e55 assets\rubymod\blockstates\ruby_slab.json
+07204ade26505acf79b77e7a73e04f2e4bdc106b assets\rubymod\models\item\ruby_sword.json
+851e509086f54c2bb18c3ddf33f4fc12c271e8cb assets\rubymod\models\item\ruby_pickaxe.json
 4ddbb01192f333fdc12ea3f65580625947984ddd assets\rubymod\models\item\sound_block.json
 1abd91574d941b75a20cff0b34c04b926f034b05 assets\rubymod\models\block\ruby_door_bottom_left.json
 d9b46df3365e3fced741301289466134b7122f56 assets\rubymod\models\block\ruby_wall_side_tall.json
@@ -56,6 +59,7 @@ e7ca7b79ba1043e6f2917fb22557a4610be6d35c assets\rubymod\blockstates\ruby_block.j
 6f598b2961f3719e98d144ffc471f4536512844b assets\rubymod\models\item\raw_ruby.json
 61e7bb264588048cd055deaa9850ceb3c4ef95f7 assets\rubymod\models\block\ruby_slab.json
 a604bed57ee06809b36e32c53a05e7723df82da3 assets\rubymod\models\block\ruby_stairs_inner.json
+28bef9b22216c2b97ded81afc2664daa79dc8f4e assets\rubymod\models\item\ruby_hoe.json
 8539d1a948789c2accec816a82c1f8898d3ede1b assets\rubymod\models\block\ruby_door_top_left.json
 dd80bdfa240b13d9c3f5cec0f51318aa63844053 assets\rubymod\models\block\ruby_fence_gate.json
 53948b523d8b9a9d486b25318ec9f0d74b095b70 assets\rubymod\blockstates\ruby_wall.json
@@ -66,6 +70,7 @@ d7aeb55b1715879084fc5fc55fbf7820793d8ad2 assets\rubymod\blockstates\ruby_fence_g
 0a4f0b0bd9339d4301c85ce79293ab8ef5ce8add assets\rubymod\models\block\ruby_button_inventory.json
 0c2c205be8f5baf2ef473320fccaeca1c23c7718 assets\rubymod\models\item\ruby_block.json
 9062b30b9245c13a1ccf1990104fb5e795c947fb assets\rubymod\models\block\ruby_door_top_right.json
+eba177dda53aae244c6c6bf9067a63a1bb2cd2fa assets\rubymod\models\item\ruby_axe.json
 71bae740975f9e2e0a983a50dde65359a0faa100 assets\rubymod\models\block\ruby_trapdoor_open.json
 4d38f7076a99004d4df79d0d114ca6338d1aeed4 assets\rubymod\models\block\raw_ruby_block.json
 81db99ba370fe1d5e70c735b67fc92382ba7f22b assets\rubymod\models\block\ruby_door_bottom_left_open.json
