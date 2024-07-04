@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-03T21:02:13.103534	Ruby Mod/Model Definitions
+// 1.20.1	2024-07-04T19:33:01.8904606	Ruby Mod/Model Definitions
 c6e7c1ff33ef0943e84cf4a532fb4ed383a9225d assets\rubymod\models\item\ruby_leggings_redstone_trim.json
 e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets\rubymod\models\item\ruby_shovel.json
 043edf658febf323c30cabd378eaddae19151f70 assets\rubymod\models\item\metal_detector.json
@@ -7,8 +7,8 @@ e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets\rubymod\models\item\ruby_shovel.
 b5f93dad591c2d3fa492f7d98c62cdd4ea51c424 assets\rubymod\models\block\ruby_door_top_right_open.json
 3f1d2abdd6285ac3710b705b3ce028940d750fee assets\rubymod\models\block\nether_ruby_ore.json
 8976ba8fd960abe63637461ee9152f90181df970 assets\rubymod\models\block\ruby_door_bottom_right.json
-a5fb811d0150eb8f6e10884fbe2d116da4a06c75 assets\rubymod\models\block\ruby_fence_post.json
 9f98313e5b11b6423b67d0295c57c80fa737b5cc assets\rubymod\models\block\ruby_stairs.json
+a5fb811d0150eb8f6e10884fbe2d116da4a06c75 assets\rubymod\models\block\ruby_fence_post.json
 2c786cbbf38fcb7c1174018ec290619f42a2695e assets\rubymod\models\item\ruby_pressure_plate.json
 0a8e63052e7cf84f13d8e043ad4e0c88ec8b014e assets\rubymod\blockstates\ruby_ore.json
 020aa333546e36b3fe4f23c5e7873e022832cb87 assets\rubymod\models\item\ruby_boots_gold_trim.json
@@ -57,8 +57,8 @@ d3cd429467313f139b40a14dc528ce62f8a398fe assets\rubymod\models\item\ruby_helmet_
 41767d24cf78cf99852347230a8fe571b42a35ac assets\rubymod\models\item\ruby_chestplate_gold_trim.json
 57d58de89b9b3758a3f186daabaa461a691216f1 assets\rubymod\models\item\ruby_leggings_netherite_trim.json
 71bae740975f9e2e0a983a50dde65359a0faa100 assets\rubymod\models\block\ruby_trapdoor_open.json
-d406c2507f96ced1b3f64c996392963ba6e66cb0 assets\rubymod\models\item\ruby_stairs.json
 644bc02b2dd438302f7243aef9b510bcb39bf06b assets\rubymod\models\item\ruby_fence.json
+d406c2507f96ced1b3f64c996392963ba6e66cb0 assets\rubymod\models\item\ruby_stairs.json
 c0db61e09ecce7b831a5ec91385fedf55da297cd assets\rubymod\models\item\ruby_boots.json
 379546a383a6d71226b390168e5fe73f2dc061bf assets\rubymod\blockstates\deepslate_ruby_ore.json
 1629fa7e0db8144e4d34b05ed6abbd1737113e10 assets\rubymod\models\block\ruby_trapdoor_top.json
@@ -76,8 +76,8 @@ c81e8f2c15896c2a2687a10254bcb47cfef083c7 assets\rubymod\blockstates\ruby_fence.j
 10f75e1bda7032dd9e226749f9825a2c03d13b61 assets\rubymod\models\block\ruby_button.json
 18239173b6d834b59c07aeee260ba774bfe36e55 assets\rubymod\blockstates\ruby_slab.json
 07204ade26505acf79b77e7a73e04f2e4bdc106b assets\rubymod\models\item\ruby_sword.json
-4ddbb01192f333fdc12ea3f65580625947984ddd assets\rubymod\models\item\sound_block.json
 a14b77c468b43f1302dc6232f63217f79398a7d1 assets\rubymod\models\item\ruby_boots_copper_trim.json
+4ddbb01192f333fdc12ea3f65580625947984ddd assets\rubymod\models\item\sound_block.json
 a7229881dfe344ad9b2af2e5ec57d6be18f343bd assets\rubymod\models\item\ruby_chestplate.json
 1abd91574d941b75a20cff0b34c04b926f034b05 assets\rubymod\models\block\ruby_door_bottom_left.json
 235255bf720ba0e209e00e1d1749d093c9cc7c75 assets\rubymod\models\item\ruby_chestplate_copper_trim.json
@@ -111,8 +111,8 @@ dd80bdfa240b13d9c3f5cec0f51318aa63844053 assets\rubymod\models\block\ruby_fence_
 d03e56b2fdbb1b61d4c869fc4be69ebfb95db70e assets\rubymod\models\item\ruby_helmet_gold_trim.json
 ecd9eaac39943e7eaccc4c84e2f7cc82cf548cfe assets\rubymod\blockstates\nether_ruby_ore.json
 a1606eebc82ba63867fb1eed5a2c61869b5075dc assets\rubymod\models\item\ruby_boots_diamond_trim.json
-0a4f0b0bd9339d4301c85ce79293ab8ef5ce8add assets\rubymod\models\block\ruby_button_inventory.json
 4d097aa5b7f03c791e28c69f8aa01e6613e0bc4b assets\rubymod\models\item\ruby_boots_lapis_trim.json
+0a4f0b0bd9339d4301c85ce79293ab8ef5ce8add assets\rubymod\models\block\ruby_button_inventory.json
 1e8ab637e6d1ec25d0c573851308126836c5dfc6 assets\rubymod\models\item\ruby_helmet_amethyst_trim.json
 9d22f9e1b2a5a661b62997e92f232c04236eb28d assets\rubymod\models\item\ruby_chestplate_quartz_trim.json
 eba177dda53aae244c6c6bf9067a63a1bb2cd2fa assets\rubymod\models\item\ruby_axe.json

@@ -92,5 +92,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_HOE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY_HELMET, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY_CHESTPLATE, 1)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY_LEGGINGS, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY_BOOTS, 1)
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_BOOTS)));
+
     }
 }
