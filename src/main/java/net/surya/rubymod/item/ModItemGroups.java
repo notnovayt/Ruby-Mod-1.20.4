@@ -40,6 +40,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
 
+                        entries.add(ModItems.TOMATO_SEEDS);
+
                         entries.add(ModBlocks.SOUND_BLOCK);
 
                         entries.add(ModBlocks.RUBY_ORE);

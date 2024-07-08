@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "rubymod:block/tomato_crop_stage3"
+  }
+}
