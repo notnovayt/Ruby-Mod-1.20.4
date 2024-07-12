@@ -44,6 +44,9 @@
   "block.rubymod.ruby_fence_gate": "Ruby Fence Gate",
   "block.rubymod.ruby_wall": "Ruby Wall",
 
+  "block.rubymod.dahlia": "Dahlia",
+
+
   "block.rubymod.sound_block": "Sound Block",
 
   "tooltip.rubymod.metal_detector.tooltip" : "Finds valuable ores underground",

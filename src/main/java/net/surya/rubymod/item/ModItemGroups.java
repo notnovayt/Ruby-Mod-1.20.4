@@ -62,6 +62,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_WALL);
                         entries.add(ModBlocks.RUBY_SLAB);
 
+                        entries.add(ModBlocks.DAHLIA);
+
                     }).build());
 
 
