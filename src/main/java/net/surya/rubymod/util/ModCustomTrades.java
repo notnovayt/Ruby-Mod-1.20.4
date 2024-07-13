@@ -8,7 +8,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.village.TradeOffer;
 import net.minecraft.village.VillagerProfession;
+import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItems;
+import net.surya.rubymod.villager.ModVillagers;
 
 public class ModCustomTrades {
     public static void registerCustomTrades() {
@@ -50,6 +52,22 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.RAW_RUBY, 16),
                             new ItemStack(ModItems.METAL_DETECTOR, 1),
                             1, 12, 0.075f));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.RUBY, 5),
+                            new ItemStack(ModBlocks.SOUND_BLOCK, 1),
+                            6, 12, 0.075f));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.CORN, 12),
+                            new ItemStack(ModBlocks.SOUND_BLOCK, 1),
+                            2, 12, 0.075f));
                 });
 
         TradeOfferHelper.registerWanderingTraderOffers(1,
