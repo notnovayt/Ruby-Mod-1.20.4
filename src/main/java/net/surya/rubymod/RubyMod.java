@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItemGroups;
 import net.surya.rubymod.item.ModItems;
+import net.surya.rubymod.util.ModCustomTrades;
 import net.surya.rubymod.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,5 +25,7 @@ public class RubyMod implements ModInitializer {
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 
 		ModLootTableModifiers.modifyLootTables();
+
+		ModCustomTrades.registerCustomTrades();
 	}
 }
