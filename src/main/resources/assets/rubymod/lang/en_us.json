@@ -53,5 +53,7 @@
 
   "tooltip.rubymod.sound_block.tooltip" : "Plays a sound when right-clicked",
 
-  "itemgroup.ruby": "Ruby Mod Group"
+  "itemgroup.ruby": "Ruby Mod Group",
+
+  "entity.minecraft.villager.sound_master": "Soundmaster"
 }
