@@ -8,6 +8,7 @@ import net.surya.rubymod.item.ModItemGroups;
 import net.surya.rubymod.item.ModItems;
 import net.surya.rubymod.util.ModCustomTrades;
 import net.surya.rubymod.util.ModLootTableModifiers;
+import net.surya.rubymod.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,5 +28,7 @@ public class RubyMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 
 		ModCustomTrades.registerCustomTrades();
+
+		ModVillagers.registerVillagers();
 	}
 }
