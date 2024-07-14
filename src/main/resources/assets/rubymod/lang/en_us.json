@@ -55,5 +55,7 @@
 
   "itemgroup.ruby": "Ruby Mod Group",
 
-  "entity.minecraft.villager.sound_master": "Soundmaster"
+  "entity.minecraft.villager.sound_master": "Soundmaster",
+
+  "sounds.rubymod.metal_detector_found_ore": "Metal Detector Chime"
 }

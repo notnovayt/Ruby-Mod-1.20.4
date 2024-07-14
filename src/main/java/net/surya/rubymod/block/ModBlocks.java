@@ -15,6 +15,7 @@ import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.custom.CornCropBlock;
 import net.surya.rubymod.block.custom.SoundBlock;
 import net.surya.rubymod.block.custom.TomatoCropBlock;
+import net.surya.rubymod.sound.ModSounds;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -32,7 +33,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(0.4f), UniformIntProvider.create(2, 5)));
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));

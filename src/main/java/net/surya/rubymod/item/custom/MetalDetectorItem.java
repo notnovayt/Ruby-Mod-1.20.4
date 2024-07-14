@@ -8,11 +8,13 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.surya.rubymod.item.ModTags;
+import net.surya.rubymod.sound.ModSounds;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -35,6 +37,9 @@ public class MetalDetectorItem extends Item {
                 if(isValuableBlock(state)) {
                     outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
                     foundBlock = true;
+
+                    context.getWorld().playSound(null, positionClicked, ModSounds.METAL_DETECTOR_FOUND_ORE,
+                            SoundCategory.BLOCKS, 1f, 1f);
 
                     break;
                 }
