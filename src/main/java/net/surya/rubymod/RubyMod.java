@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItemGroups;
 import net.surya.rubymod.item.ModItems;
+import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.util.ModCustomTrades;
 import net.surya.rubymod.util.ModLootTableModifiers;
 import net.surya.rubymod.villager.ModVillagers;
@@ -30,5 +31,7 @@ public class RubyMod implements ModInitializer {
 		ModCustomTrades.registerCustomTrades();
 
 		ModVillagers.registerVillagers();
+
+		ModSounds.registerSounds();
 	}
 }
