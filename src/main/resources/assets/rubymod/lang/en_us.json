@@ -9,25 +9,28 @@
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.raw_ruby_block":"Block of Raw Ruby",
 
-  "item.rubymod.metal_detector":"Metal Detector",
+  "item.rubymod.metal_detector": "Metal Detector",
 
-  "item.rubymod.ruby_staff":"Ruby Staff",
+  "item.rubymod.ruby_staff": "Ruby Staff",
 
-  "item.rubymod.ruby_sword":"Ruby Sword",
-  "item.rubymod.ruby_axe":"Ruby Axe",
-  "item.rubymod.ruby_pickaxe":"Ruby Pickaxe",
-  "item.rubymod.ruby_shovel":"Ruby Shovel",
-  "item.rubymod.ruby_hoe":"Ruby Hoe",
+  "item.rubymod.ruby_sword": "Ruby Sword",
+  "item.rubymod.ruby_axe": "Ruby Axe",
+  "item.rubymod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.rubymod.ruby_shovel": "Ruby Shovel",
+  "item.rubymod.ruby_hoe": "Ruby Hoe",
 
-  "item.rubymod.ruby_helmet":"Ruby Helmet",
-  "item.rubymod.ruby_chestplate":"Ruby Chestplate",
-  "item.rubymod.ruby_leggings":"Ruby Leggings",
-  "item.rubymod.ruby_boots":"Ruby Boots",
+  "item.rubymod.ruby_helmet": "Ruby Helmet",
+  "item.rubymod.ruby_chestplate": "Ruby Chestplate",
+  "item.rubymod.ruby_leggings": "Ruby Leggings",
+  "item.rubymod.ruby_boots": "Ruby Boots",
 
-  "item.rubymod.tomato_seeds":"Tomato Seeds",
+  "item.rubymod.tomato_seeds": "Tomato Seeds",
 
-  "item.rubymod.corn_seeds":"Corn Seeds",
-  "item.rubymod.corn":"Corn",
+  "item.rubymod.corn_seeds": "Corn Seeds",
+  "item.rubymod.corn": "Corn",
+
+  "item.rubymod.kaikaikitan_music_disc": "KaiKai Kitan Music Disc",
+  "item.rubymod.kaikaikitan_music_disc.desc": "EVE - KaiKai Kitan",
 
   "block.rubymod.ruby_ore": "Ruby Ore",
   "block.rubymod.deepslate_ruby_ore": "Deepslate Ruby Ore",

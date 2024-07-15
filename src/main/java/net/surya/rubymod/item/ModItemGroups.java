@@ -64,6 +64,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.DAHLIA);
 
+                        entries.add((ModItems.KAIKAIKITAN_MUSIC_DISC));
+
                     }).build());
 
 

@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-14T20:44:19.0992276	Ruby Mod/Model Definitions
+// 1.20.1	2024-07-14T21:31:53.4662139	Ruby Mod/Model Definitions
 c6e7c1ff33ef0943e84cf4a532fb4ed383a9225d assets\rubymod\models\item\ruby_leggings_redstone_trim.json
 5df0918e75ed99fd607d9d242738100aba92eed3 assets\rubymod\models\item\tomato_seeds.json
 e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets\rubymod\models\item\ruby_shovel.json
@@ -76,6 +76,7 @@ c0db61e09ecce7b831a5ec91385fedf55da297cd assets\rubymod\models\item\ruby_boots.j
 9f54af7043237d4ddd5f5f3fe2229aaec45fa72f assets\rubymod\models\block\corn_crop_stage5.json
 1629fa7e0db8144e4d34b05ed6abbd1737113e10 assets\rubymod\models\block\ruby_trapdoor_top.json
 d523a8532512238b99a79f9d994f6348facc958e assets\rubymod\models\item\dahlia.json
+cfadcfe28dfd2dfe269a9efb8e1bd2e87dcfc68e assets\rubymod\models\item\kaikaikitan_music_disc.json
 438c6f63d0734b968075f3b71b199964ec3f9552 assets\rubymod\models\item\ruby_leggings_quartz_trim.json
 c251cf01ed1cc006e6f846ed0695146d9252a205 assets\rubymod\blockstates\ruby_pressure_plate.json
 a61bd8b909c2e811e9e774061c5194bdf7d60121 assets\rubymod\models\item\ruby_leggings_diamond_trim.json

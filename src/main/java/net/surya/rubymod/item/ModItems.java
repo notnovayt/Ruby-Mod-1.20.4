@@ -12,6 +12,7 @@ import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
 import net.surya.rubymod.item.custom.ModArmorItem;
 import net.surya.rubymod.item.custom.ModFoodComponents;
+import net.surya.rubymod.sound.ModSounds;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
@@ -55,6 +56,9 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
     public static final Item CORN = registerItem("corn",
             new Item(new FabricItemSettings()));
+
+    public static final Item KAIKAIKITAN_MUSIC_DISC = registerItem("kaikaikitan_music_disc",
+            new MusicDiscItem(7, ModSounds.KAIKAIKITAN, new FabricItemSettings().maxCount(1), 223));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
