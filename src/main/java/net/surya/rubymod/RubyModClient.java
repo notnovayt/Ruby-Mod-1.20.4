@@ -3,11 +3,15 @@ package net.surya.rubymod;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.entity.EntityRenderer;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.entity.client.ModModelLayers;
 import net.surya.rubymod.entity.client.PorcupineModel;
+import net.surya.rubymod.entity.client.PorcupineRenderer;
 
 public class RubyModClient implements ClientModInitializer {
     @Override
@@ -22,6 +26,7 @@ public class RubyModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DAHLIA, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_DAHLIA, RenderLayer.getCutout());
 
+        EntityRendererRegistry.register(ModEntities.PORCUPINE, PorcupineRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
     }
 }
