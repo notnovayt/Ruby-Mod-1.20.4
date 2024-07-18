@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-14T21:31:53.4662139	Ruby Mod/Model Definitions
+// 1.20.2	2024-07-18T20:05:01.2725996	Ruby Mod/Model Definitions
 c6e7c1ff33ef0943e84cf4a532fb4ed383a9225d assets\rubymod\models\item\ruby_leggings_redstone_trim.json
 5df0918e75ed99fd607d9d242738100aba92eed3 assets\rubymod\models\item\tomato_seeds.json
 e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets\rubymod\models\item\ruby_shovel.json
@@ -65,12 +65,13 @@ d3cd429467313f139b40a14dc528ce62f8a398fe assets\rubymod\models\item\ruby_helmet_
 57d58de89b9b3758a3f186daabaa461a691216f1 assets\rubymod\models\item\ruby_leggings_netherite_trim.json
 71bae740975f9e2e0a983a50dde65359a0faa100 assets\rubymod\models\block\ruby_trapdoor_open.json
 da15a2c49ffb8fbf8fd4fcc2f11bebe0f0f70c76 assets\rubymod\models\block\tomato_crop_stage0.json
-644bc02b2dd438302f7243aef9b510bcb39bf06b assets\rubymod\models\item\ruby_fence.json
 d406c2507f96ced1b3f64c996392963ba6e66cb0 assets\rubymod\models\item\ruby_stairs.json
+644bc02b2dd438302f7243aef9b510bcb39bf06b assets\rubymod\models\item\ruby_fence.json
 6a082db546fa33d63e6a901b0ce0bfd38359e06e assets\rubymod\blockstates\dahlia.json
 c0db61e09ecce7b831a5ec91385fedf55da297cd assets\rubymod\models\item\ruby_boots.json
 3bba600591802691539dd0143d71ca1172a8f2fa assets\rubymod\models\block\tomato_crop_stage3.json
 692c5cc4b4ddf404eb4a27a9ce11721b06f4bade assets\rubymod\blockstates\potted_dahlia.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\rubymod\models\item\porcupine_spawn_egg.json
 379546a383a6d71226b390168e5fe73f2dc061bf assets\rubymod\blockstates\deepslate_ruby_ore.json
 79e5d7b3eef25c1a6a610d1292c5aef358eaf752 assets\rubymod\models\block\tomato_crop_stage2.json
 9f54af7043237d4ddd5f5f3fe2229aaec45fa72f assets\rubymod\models\block\corn_crop_stage5.json

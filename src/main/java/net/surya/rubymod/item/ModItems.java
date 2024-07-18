@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
 import net.surya.rubymod.item.custom.ModArmorItem;
 import net.surya.rubymod.item.custom.ModFoodComponents;
@@ -59,6 +60,9 @@ public class ModItems {
 
     public static final Item KAIKAIKITAN_MUSIC_DISC = registerItem("kaikaikitan_music_disc",
             new MusicDiscItem(7, ModSounds.KAIKAIKITAN, new FabricItemSettings().maxCount(1), 223));
+
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE,0xa86518, 0x3b260f, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
