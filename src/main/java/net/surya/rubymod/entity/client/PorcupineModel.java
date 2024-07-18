@@ -3,14 +3,18 @@ package net.surya.rubymod.entity.client;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModel;
+import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
+import net.surya.rubymod.entity.custom.PorcupineEntity;
 
-public class PorcupineModel extends EntityModel<Entity> {
+public class PorcupineModel<T extends PorcupineEntity> extends SinglePartEntityModel<T> {
 	private final ModelPart porcupine;
+	private final ModelPart head;
 
 	public PorcupineModel(ModelPart root) {
 		this.porcupine = root.getChild("porcupine");
+		this.head = porcupine.getChild("body").getChild("torso").getChild("head");
 	}
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
@@ -153,11 +157,16 @@ public class PorcupineModel extends EntityModel<Entity> {
 	}
 
 	@Override
-	public void setAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+	public void setAngles(PorcupineEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 	}
 
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
 		porcupine.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+	}
+
+	@Override
+	public ModelPart getPart() {
+		return porcupine;
 	}
 }

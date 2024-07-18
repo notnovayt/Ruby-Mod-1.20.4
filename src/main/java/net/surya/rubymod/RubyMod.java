@@ -2,8 +2,11 @@ package net.surya.rubymod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.entity.ModEntities;
+import net.surya.rubymod.entity.custom.PorcupineEntity;
 import net.surya.rubymod.item.ModItemGroups;
 import net.surya.rubymod.item.ModItems;
 import net.surya.rubymod.sound.ModSounds;
@@ -33,5 +36,7 @@ public class RubyMod implements ModInitializer {
 		ModVillagers.registerVillagers();
 
 		ModSounds.registerSounds();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
 }
