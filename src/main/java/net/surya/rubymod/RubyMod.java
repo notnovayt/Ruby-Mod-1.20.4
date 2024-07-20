@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.block.entity.ModBlockEntities;
 import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.entity.custom.PorcupineEntity;
 import net.surya.rubymod.item.ModItemGroups;
@@ -36,6 +37,8 @@ public class RubyMod implements ModInitializer {
 		ModVillagers.registerVillagers();
 
 		ModSounds.registerSounds();
+
+		ModBlockEntities.registerBlockEntities();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
