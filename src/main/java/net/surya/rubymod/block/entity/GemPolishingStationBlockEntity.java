@@ -7,6 +7,7 @@ import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventories;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.network.PacketByteBuf;
@@ -17,6 +18,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.surya.rubymod.item.ModItems;
 import org.jetbrains.annotations.Nullable;
 
 public class GemPolishingStationBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory, ImplementedInventory {
@@ -115,20 +117,41 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements Exten
     }
 
     private void resetProgress() {
+        this.progress = 0;
     }
 
     private void craftItem() {
+        this.removeStack(INPUT_SLOT, 1);
+        ItemStack result = new ItemStack(ModItems.RUBY);
+
+        this.setStack(OUTPUT_SLOT, new ItemStack(result.getItem(), getStack(OUTPUT_SLOT).getCount() + result.getCount()));
     }
 
     private boolean hasCraftingFinished() {
+        return progress >= maxProgress;
     }
 
     private void increaseCraftProgress() {
+        progress++;
     }
 
     private boolean hasRecipe() {
+        ItemStack result = new ItemStack(ModItems.RUBY);
+        boolean hasInput = getStack(INPUT_SLOT).getItem() == ModItems.RAW_RUBY;
+
+        return hasInput && canInsertAmountIntoOutputSlot(result) && canInsertItemIntoOutputSlot(result.getItem());
+    }
+
+    private boolean canInsertItemIntoOutputSlot(Item item) {
+        return this.getStack(OUTPUT_SLOT).getItem() == item || this.getStack(OUTPUT_SLOT).isEmpty();
+    }
+
+    private boolean canInsertAmountIntoOutputSlot(ItemStack result) {
+        return this.getStack(OUTPUT_SLOT).getCount() + result.getCount() <= getStack(OUTPUT_SLOT).getMaxCount();
     }
 
     private boolean isOutputSlotEmptyOrReceivable() {
+        return this.getStack(OUTPUT_SLOT).isEmpty() || this.getStack(OUTPUT_SLOT).getCount() < this.getStack(OUTPUT_SLOT)
+                .getMaxCount();
     }
 }
