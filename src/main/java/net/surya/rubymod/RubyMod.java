@@ -10,6 +10,7 @@ import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.entity.custom.PorcupineEntity;
 import net.surya.rubymod.item.ModItemGroups;
 import net.surya.rubymod.item.ModItems;
+import net.surya.rubymod.screen.ModScreenHandlers;
 import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.util.ModCustomTrades;
 import net.surya.rubymod.util.ModLootTableModifiers;
@@ -39,6 +40,7 @@ public class RubyMod implements ModInitializer {
 		ModSounds.registerSounds();
 
 		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
