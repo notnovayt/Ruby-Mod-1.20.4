@@ -1,8 +1,8 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"3": "tutorialmod:block/gem_polishing_station_texture",
-		"particle": "tutorialmod:block/gem_polishing_station_texture"
+		"3": "rubymod:block/gem_polishing_station_texture",
+		"particle": "rubymod:block/gem_polishing_station_texture"
 	},
 	"elements": [
 		{

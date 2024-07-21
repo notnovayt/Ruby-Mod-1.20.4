@@ -1,4 +1,4 @@
-// 1.20.2	2024-07-18T20:05:01.2825676	Ruby Mod/Recipes
+// 1.20.2	2024-07-21T19:51:04.1745295	Ruby Mod/Recipes
 78a0c0b9027c34a7f760fddd60c7d8712c128706 data\rubymod\recipes\ruby_axe.json
 6e54139e096695f47a4c7b30e23ee749a5e85941 data\rubymod\recipes\ruby_hoe.json
 37397ae5c55420afb42f78a881b8d131ce2858fd data\rubymod\recipes\ruby_from_smelting_nether_ruby_ore.json
@@ -12,8 +12,8 @@ fcd2dfdfede82900b554017f200ac5d2534e7ee5 data\rubymod\advancements\recipes\misc\
 c995d5efd7e201cf3a7b27e1cb4e7798ec24a3bf data\rubymod\advancements\recipes\tools\ruby_shovel.json
 1b0219f4bbd42b7db5611f00e796c3e69ae68cd2 data\rubymod\advancements\recipes\misc\ruby_from_blasting_end_stone_ruby_ore.json
 9fe2922a18e799a6614a362440d9a78336296ce3 data\rubymod\recipes\ruby_from_blasting_raw_ruby.json
-507feb34ca559f88171eaeec8258922b183b4af4 data\rubymod\recipes\ruby_from_blasting_end_stone_ruby_ore.json
 a3fc7b17c5501438e3b9cbe46fc032067fc3d3c8 data\rubymod\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
+507feb34ca559f88171eaeec8258922b183b4af4 data\rubymod\recipes\ruby_from_blasting_end_stone_ruby_ore.json
 75db2fc0dacc1f8442ac261ddfeb0381c1f9a57d data\rubymod\recipes\ruby_from_blasting_nether_ruby_ore.json
 9d2801812f7e14ca5b77d6f8a58b29fdc160c94c data\rubymod\advancements\recipes\misc\ruby_leggings.json
 f1f15eb474bb8f640872774565d019323357e96e data\rubymod\recipes\ruby_from_smelting_deepslate_ruby_ore.json

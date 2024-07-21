@@ -19,6 +19,7 @@ import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.surya.rubymod.item.ModItems;
+import net.surya.rubymod.screen.GemPolishingScreenHandler;
 import org.jetbrains.annotations.Nullable;
 
 public class GemPolishingStationBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory, ImplementedInventory {
@@ -71,7 +72,7 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements Exten
     @Nullable
     @Override
     public ScreenHandler createMenu(int syncId, PlayerInventory playerInventory, PlayerEntity player) {
-        return
+        return new GemPolishingScreenHandler(syncId, playerInventory, this, this.propertyDelegate);
     }
 
     @Override
