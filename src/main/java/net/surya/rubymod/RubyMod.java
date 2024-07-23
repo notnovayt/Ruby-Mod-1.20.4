@@ -10,6 +10,7 @@ import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.entity.custom.PorcupineEntity;
 import net.surya.rubymod.item.ModItemGroups;
 import net.surya.rubymod.item.ModItems;
+import net.surya.rubymod.recipe.ModRecipes;
 import net.surya.rubymod.screen.ModScreenHandlers;
 import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.util.ModCustomTrades;
@@ -38,6 +39,8 @@ public class RubyMod implements ModInitializer {
 		ModVillagers.registerVillagers();
 
 		ModSounds.registerSounds();
+
+		ModRecipes.registerRecipes();
 
 		ModBlockEntities.registerBlockEntities();
 		ModScreenHandlers.registerScreenHandlers();

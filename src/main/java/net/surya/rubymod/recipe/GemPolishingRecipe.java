@@ -56,7 +56,7 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
 
     @Override
     public RecipeSerializer<?> getSerializer() {
-        return null;
+        return Serializer.INSTANCE;
     }
 
     @Override
@@ -70,6 +70,9 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
     }
 
     public static class Serializer implements RecipeSerializer<GemPolishingRecipe> {
+        public static final Serializer INSTANCE = new Serializer();
+        public static final String ID = "gem_polishing";
+
         public static final Codec<GemPolishingRecipe> CODEC = RecordCodecBuilder.create(in -> in.group(
                 validateAmount(Ingredient.DISALLOW_EMPTY_CODEC, 9).fieldOf("ingredients")
                         .forGetter(GemPolishingRecipe::getIngredients),
@@ -85,17 +88,30 @@ public class GemPolishingRecipe implements Recipe<SimpleInventory> {
 
         @Override
         public Codec<GemPolishingRecipe> codec() {
-            return null;
+            return CODEC;
         }
 
         @Override
         public GemPolishingRecipe read(PacketByteBuf buf) {
-            return null;
+            DefaultedList<Ingredient> inputs = DefaultedList.ofSize(buf.readInt(), Ingredient.EMPTY);
+
+            for(int i = 0; i < inputs.size(); i++) {
+                inputs.set(i, Ingredient.fromPacket(buf));
+            }
+
+            ItemStack output = buf.readItemStack();
+            return new GemPolishingRecipe(inputs, output);
         }
 
         @Override
         public void write(PacketByteBuf buf, GemPolishingRecipe recipe) {
+            buf.writeInt(recipe.getIngredients().size());
 
+            for (Ingredient ingredient : recipe.getIngredients()) {
+                ingredient.write(buf);
+            }
+
+            buf.writeItemStack(recipe.getResult(null));
         }
     }
 }
