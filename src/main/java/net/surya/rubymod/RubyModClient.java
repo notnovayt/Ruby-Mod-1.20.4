@@ -6,7 +6,10 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.block.entity.ModBlockEntities;
+import net.surya.rubymod.block.entity.renderer.GemPolishingBlockEntityRenderer;
 import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.entity.client.ModModelLayers;
 import net.surya.rubymod.entity.client.PorcupineModel;
@@ -31,5 +34,7 @@ public class RubyModClient implements ClientModInitializer {
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
 
         HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, GemPolishingScreen::new);
+
+        BlockEntityRendererFactories.register(ModBlockEntities.GEM_POLISHING_STATION_BLOCK_ENTITY, GemPolishingBlockEntityRenderer::new);
     }
 }
