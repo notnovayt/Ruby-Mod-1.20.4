@@ -1,4 +1,4 @@
-// 1.20.2	2024-07-24T19:16:52.6179784	Ruby Mod/Recipes
+// 1.20.2	2024-07-25T20:12:17.3031497	Ruby Mod/Recipes
 78a0c0b9027c34a7f760fddd60c7d8712c128706 data\rubymod\recipes\ruby_axe.json
 37397ae5c55420afb42f78a881b8d131ce2858fd data\rubymod\recipes\ruby_from_smelting_nether_ruby_ore.json
 2516b3c97d3e6f68a1d56c1f027284324a52bc28 data\rubymod\recipes\ruby.json
@@ -46,8 +46,8 @@ cf3fdc8ba2c8e83919bb556a8367b35fb47db37f data\rubymod\recipes\ruby_from_smelting
 b055c36130061916abcac67de1d389f2f0604c22 data\rubymod\advancements\recipes\misc\raw_ruby.json
 af9f14ddef007b76dc2c42e8e27fd10a77ac44e3 data\rubymod\advancements\recipes\tools\ruby_axe.json
 0373a819e23e88295d227c7c4dac85b1165e5d6f data\rubymod\advancements\recipes\tools\ruby_hoe.json
-8ab7c34d6fa8d82cfadcc32e2a0ad72607041ffd data\rubymod\advancements\recipes\misc\ruby_button.json
 5fb03127a3776f1a35bac59a4749053e3be891fa data\rubymod\recipes\ruby_button.json
+8ab7c34d6fa8d82cfadcc32e2a0ad72607041ffd data\rubymod\advancements\recipes\misc\ruby_button.json
 ee8578ed69a38786ffca46d8b17851423f867e06 data\rubymod\recipes\ruby_trapdoor.json
 8d295428103bd1bc975e85cd57d45fe993b0c331 data\rubymod\advancements\recipes\misc\ruby_from_smelting_nether_ruby_ore.json
 1961668a0d8f7317587d9fccc64f6e5b88dfe29e data\rubymod\recipes\ruby_slab.json

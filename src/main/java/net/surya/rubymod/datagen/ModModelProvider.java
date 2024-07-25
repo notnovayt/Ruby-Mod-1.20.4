@@ -50,6 +50,11 @@ public class ModModelProvider extends FabricModelProvider {
                 BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerSimpleState(ModBlocks.GEM_POLISHING_STATION);
+
+        blockStateModelGenerator.registerLog(ModBlocks.HAZELNUT_LOG).log(ModBlocks.HAZELNUT_LOG).wood(ModBlocks.HAZELNUT_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_HAZELNUT_LOG).log(ModBlocks.STRIPPED_HAZELNUT_LOG).wood(ModBlocks.STRIPPED_HAZELNUT_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZELNUT_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZELNUT_LEAVES);
     }
 
     @Override

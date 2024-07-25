@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rubymod:hazelnut_log",
+    "rubymod:hazelnut_wood",
+    "rubymod:stripped_hazelnut_log",
+    "rubymod:stripped_hazelnut_wood"
+  ]
+}

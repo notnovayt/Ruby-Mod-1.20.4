@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
+import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -23,5 +24,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.KAIKAIKITAN_MUSIC_DISC);
+
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.HAZELNUT_PLANKS.asItem());
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.HAZELNUT_LOG.asItem())
+                .add(ModBlocks.HAZELNUT_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_HAZELNUT_LOG.asItem())
+                .add(ModBlocks.STRIPPED_HAZELNUT_WOOD.asItem());
     }
 }

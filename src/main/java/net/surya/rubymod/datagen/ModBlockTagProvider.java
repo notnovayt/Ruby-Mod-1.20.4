@@ -57,5 +57,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_5")))
                 .add(ModBlocks.SOUND_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.HAZELNUT_LOG)
+                .add(ModBlocks.HAZELNUT_WOOD)
+                .add(ModBlocks.STRIPPED_HAZELNUT_LOG)
+                .add(ModBlocks.STRIPPED_HAZELNUT_WOOD);
     }
 }
