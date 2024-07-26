@@ -51,8 +51,14 @@
 
   "block.rubymod.dahlia": "Dahlia",
 
-
   "block.rubymod.sound_block": "Sound Block",
+
+  "block.rubymod.hazelnut_log": "Hazelnut Log",
+  "block.rubymod.hazelnut_wood": "Hazelnut Wood",
+  "block.rubymod.stripped_hazelnut_log": "Stripped Hazelnut Log",
+  "block.rubymod.stripped_hazelnut_wood": "Stripped Hazelnut Wood",
+  "block.rubymod.hazelnut_planks": "Hazelnut Planks",
+  "block.rubymod.hazelnut_leaves": "Hazelnut Leaves",
 
   "tooltip.rubymod.metal_detector.tooltip" : "Finds valuable ores underground",
 

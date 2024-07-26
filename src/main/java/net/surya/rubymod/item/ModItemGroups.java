@@ -66,6 +66,13 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.GEM_POLISHING_STATION);
 
+                        entries.add(ModBlocks.HAZELNUT_LOG);
+                        entries.add(ModBlocks.HAZELNUT_LEAVES);
+                        entries.add(ModBlocks.HAZELNUT_PLANKS);
+                        entries.add(ModBlocks.STRIPPED_HAZELNUT_WOOD);
+                        entries.add(ModBlocks.STRIPPED_HAZELNUT_LOG);
+                        entries.add(ModBlocks.HAZELNUT_WOOD);
+
                         entries.add(ModItems.KAIKAIKITAN_MUSIC_DISC);
 
                         entries.add(ModItems.PORCUPINE_SPAWN_EGG);

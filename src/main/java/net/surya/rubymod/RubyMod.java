@@ -3,7 +3,9 @@ package net.surya.rubymod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.block.entity.ModBlockEntities;
 import net.surya.rubymod.entity.ModEntities;
@@ -46,5 +48,16 @@ public class RubyMod implements ModInitializer {
 		ModScreenHandlers.registerScreenHandlers();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
+
+		StrippableBlockRegistry.register(ModBlocks.HAZELNUT_LOG, ModBlocks.STRIPPED_HAZELNUT_LOG);
+		StrippableBlockRegistry.register(ModBlocks.HAZELNUT_WOOD, ModBlocks.STRIPPED_HAZELNUT_WOOD);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HAZELNUT_LOG, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HAZELNUT_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_HAZELNUT_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_HAZELNUT_LOG, 5, 5);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HAZELNUT_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HAZELNUT_LEAVES, 30, 60);
 	}
 }
