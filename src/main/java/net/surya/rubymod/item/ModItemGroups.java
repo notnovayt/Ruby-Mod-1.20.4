@@ -45,6 +45,13 @@ public class ModItemGroups {
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.CORN_SEEDS);
 
+                        entries.add(ModItems.KAIKAIKITAN_MUSIC_DISC);
+
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
+
+                        entries.add(ModItems.HAZELNUT_SIGN);
+                        entries.add(ModItems.HANGING_HAZELNUT_SIGN);
+
                         entries.add(ModBlocks.SOUND_BLOCK);
 
                         entries.add(ModBlocks.RUBY_ORE);
@@ -72,10 +79,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_HAZELNUT_WOOD);
                         entries.add(ModBlocks.STRIPPED_HAZELNUT_LOG);
                         entries.add(ModBlocks.HAZELNUT_WOOD);
-
-                        entries.add(ModItems.KAIKAIKITAN_MUSIC_DISC);
-
-                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
 
                     }).build());
 

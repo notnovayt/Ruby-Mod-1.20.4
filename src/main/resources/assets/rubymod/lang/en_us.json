@@ -60,6 +60,12 @@
   "block.rubymod.hazelnut_planks": "Hazelnut Planks",
   "block.rubymod.hazelnut_leaves": "Hazelnut Leaves",
 
+  "block.rubymod.hazelnut_standing_sign": "Hazelnut Standing Sign",
+  "block.rubymod.hazelnut_wall_sign": "Hazelnut Wall Sign",
+
+  "block.rubymod.hazelnut_hanging_sign": "Hazelnut Hanging Sign",
+  "block.rubymod.hazelnut_wall_hanging_sign": "Hazelnut Wall Hanging Sign",
+
   "tooltip.rubymod.metal_detector.tooltip" : "Finds valuable ores underground",
 
   "tooltip.rubymod.sound_block.tooltip" : "Plays a sound when right-clicked",
