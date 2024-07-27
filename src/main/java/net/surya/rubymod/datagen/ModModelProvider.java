@@ -53,11 +53,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerLog(ModBlocks.HAZELNUT_LOG).log(ModBlocks.HAZELNUT_LOG).wood(ModBlocks.HAZELNUT_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_HAZELNUT_LOG).log(ModBlocks.STRIPPED_HAZELNUT_LOG).wood(ModBlocks.STRIPPED_HAZELNUT_WOOD);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZELNUT_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZELNUT_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZELNUT_PLANKS);
 
-        BlockStateModelGenerator.BlockTexturePool hazelnut_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HAZELNUT_PLANKS);
-        hazelnut_pool.family(ModBlocks.HAZELNUT_FAMILY);
+//        BlockStateModelGenerator.BlockTexturePool hazelnut_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HAZELNUT_PLANKS);
+//        hazelnut_pool.family(ModBlocks.HAZELNUT_FAMILY);
     }
 
     @Override
@@ -87,6 +87,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
 
-        itemModelGenerator.register(ModItems.HANGING_HAZELNUT_SIGN, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.HANGING_HAZELNUT_SIGN, Models.GENERATED);
     }
 }

@@ -49,8 +49,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.PORCUPINE_SPAWN_EGG);
 
-                        entries.add(ModItems.HAZELNUT_SIGN);
-                        entries.add(ModItems.HANGING_HAZELNUT_SIGN);
+//                        entries.add(ModItems.HAZELNUT_SIGN);
+//                        entries.add(ModItems.HANGING_HAZELNUT_SIGN);
 
                         entries.add(ModBlocks.SOUND_BLOCK);
 
