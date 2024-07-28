@@ -1,4 +1,4 @@
-// 1.20.2	2024-07-27T18:39:42.1968584	Ruby Mod/Model Definitions
+// 1.20.2	2024-07-27T21:51:23.5119548	Ruby Mod/Model Definitions
 c6e7c1ff33ef0943e84cf4a532fb4ed383a9225d assets\rubymod\models\item\ruby_leggings_redstone_trim.json
 5df0918e75ed99fd607d9d242738100aba92eed3 assets\rubymod\models\item\tomato_seeds.json
 e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets\rubymod\models\item\ruby_shovel.json
@@ -73,8 +73,8 @@ d3cd429467313f139b40a14dc528ce62f8a398fe assets\rubymod\models\item\ruby_helmet_
 57d58de89b9b3758a3f186daabaa461a691216f1 assets\rubymod\models\item\ruby_leggings_netherite_trim.json
 71bae740975f9e2e0a983a50dde65359a0faa100 assets\rubymod\models\block\ruby_trapdoor_open.json
 da15a2c49ffb8fbf8fd4fcc2f11bebe0f0f70c76 assets\rubymod\models\block\tomato_crop_stage0.json
-644bc02b2dd438302f7243aef9b510bcb39bf06b assets\rubymod\models\item\ruby_fence.json
 d406c2507f96ced1b3f64c996392963ba6e66cb0 assets\rubymod\models\item\ruby_stairs.json
+644bc02b2dd438302f7243aef9b510bcb39bf06b assets\rubymod\models\item\ruby_fence.json
 6a082db546fa33d63e6a901b0ce0bfd38359e06e assets\rubymod\blockstates\dahlia.json
 c0db61e09ecce7b831a5ec91385fedf55da297cd assets\rubymod\models\item\ruby_boots.json
 3bba600591802691539dd0143d71ca1172a8f2fa assets\rubymod\models\block\tomato_crop_stage3.json
@@ -137,14 +137,15 @@ dd1494ddfaffd1fd6504fd18de4182a3e82fe694 assets\rubymod\blockstates\tomato_crop.
 9d0187c5de36373b61cb638674b66847fc9cc921 assets\rubymod\models\item\ruby_chestplate_emerald_trim.json
 b2d5646b6e92e23e2044f592056356b1f1cf5117 assets\rubymod\models\block\ruby_button_pressed.json
 e187ea510740641cb3fb738cd705e79b913c0056 assets\rubymod\models\item\ruby_helmet_diamond_trim.json
+40a226e71c4524cd803254477c1fe15bfee7f1dd assets\rubymod\models\item\hazelnut_boat.json
 59b010abefce0aaf871f9fb44df9cd30f95745fa assets\rubymod\models\block\deepslate_ruby_ore.json
 d7d948680698c995c2da15e3e5d182c11c5b7965 assets\rubymod\blockstates\ruby_stairs.json
 7ea7f3f288c9d7bff6be3288665becb080a458f8 assets\rubymod\models\item\nether_ruby_ore.json
 b8685277f7ad240380404c8caca5944bb5b8cfe4 assets\rubymod\models\block\ruby_fence_gate_wall_open.json
 67208f462be0daf466d452ab4f0d7743b215d277 assets\rubymod\models\block\tomato_crop_stage4.json
 bcc1293e9ab50d20057dbf231f2ccd09cbd4ccc2 assets\rubymod\models\block\ruby_door_bottom_right_open.json
-f195d4a32f4f789407b2e1f920faa90385155841 assets\rubymod\blockstates\stripped_hazelnut_wood.json
 e7ca7b79ba1043e6f2917fb22557a4610be6d35c assets\rubymod\blockstates\ruby_block.json
+f195d4a32f4f789407b2e1f920faa90385155841 assets\rubymod\blockstates\stripped_hazelnut_wood.json
 8b74d3096309f19b9a0b631b44dba0979d880098 assets\rubymod\blockstates\hazelnut_leaves.json
 990dd594104613454e702ecff3ef0dfa5525d551 assets\rubymod\models\block\hazelnut_wood.json
 88b1dd82dc22e66475ba64ba92b3d6b320792c03 assets\rubymod\models\item\ruby_chestplate_iron_trim.json
@@ -157,6 +158,7 @@ ecd9eaac39943e7eaccc4c84e2f7cc82cf548cfe assets\rubymod\blockstates\nether_ruby_
 a1606eebc82ba63867fb1eed5a2c61869b5075dc assets\rubymod\models\item\ruby_boots_diamond_trim.json
 4d097aa5b7f03c791e28c69f8aa01e6613e0bc4b assets\rubymod\models\item\ruby_boots_lapis_trim.json
 0a4f0b0bd9339d4301c85ce79293ab8ef5ce8add assets\rubymod\models\block\ruby_button_inventory.json
+a3863df7db4d0feca553925a62d8546d1e672ea4 assets\rubymod\models\item\hazelnut_chest_boat.json
 1e8ab637e6d1ec25d0c573851308126836c5dfc6 assets\rubymod\models\item\ruby_helmet_amethyst_trim.json
 9d22f9e1b2a5a661b62997e92f232c04236eb28d assets\rubymod\models\item\ruby_chestplate_quartz_trim.json
 eba177dda53aae244c6c6bf9067a63a1bb2cd2fa assets\rubymod\models\item\ruby_axe.json

@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.block.entity.ModBlockEntities;
+import net.surya.rubymod.entity.ModBoats;
 import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.entity.custom.PorcupineEntity;
 import net.surya.rubymod.item.ModItemGroups;
@@ -59,5 +60,7 @@ public class RubyMod implements ModInitializer {
 
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HAZELNUT_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HAZELNUT_LEAVES, 30, 60);
+
+		ModBoats.registerBoats();
 	}
 }

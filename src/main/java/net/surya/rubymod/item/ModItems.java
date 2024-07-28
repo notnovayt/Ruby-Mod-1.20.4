@@ -1,5 +1,7 @@
 package net.surya.rubymod.item;
 
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
+import com.terraformersmc.terraform.boat.impl.item.TerraformBoatItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -9,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.entity.ModBoats;
 import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
 import net.surya.rubymod.item.custom.ModArmorItem;
@@ -63,6 +66,11 @@ public class ModItems {
 
     public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
             new SpawnEggItem(ModEntities.PORCUPINE,0xa86518, 0x3b260f, new FabricItemSettings()));
+
+    public static final Item HAZELNUT_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.HAZELNUT_BOAT_ID,
+            ModBoats.HAZELNUT_BOAT_KEY, false);
+    public static final Item HAZELNUT_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.HAZELNUT_CHEST_BOAT_ID,
+            ModBoats.HAZELNUT_BOAT_KEY, true);
 
 //    public static final Item HAZELNUT_SIGN = registerItem("hazelnut_sign",
 //            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_HAZELNUT_SIGN, ModBlocks.WALL_HAZELNUT_SIGN));

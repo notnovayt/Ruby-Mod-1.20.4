@@ -185,5 +185,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_SLAB)));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HAZELNUT_PLANKS, 4)
+                .input(ModBlocks.HAZELNUT_LOG)
+                .criterion("has_hazelnut_log", conditionsFromItem(ModBlocks.HAZELNUT_LOG))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.HAZELNUT_PLANKS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TRANSPORTATION, ModItems.HAZELNUT_CHEST_BOAT)
+                .pattern("C")
+                .pattern("B")
+                .input('C', Items.CHEST)
+                .input('B', ModItems.HAZELNUT_BOAT)
+                .criterion("has_hazelnut_boat", conditionsFromItem(ModItems.HAZELNUT_BOAT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.HAZELNUT_CHEST_BOAT)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TRANSPORTATION, ModItems.HAZELNUT_BOAT)
+                .pattern("P P")
+                .pattern("PPP")
+                .input('P', ModBlocks.HAZELNUT_PLANKS)
+                .criterion("has_hazelnut_planks", conditionsFromItem(ModBlocks.HAZELNUT_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.HAZELNUT_BOAT)));
     }
 }
