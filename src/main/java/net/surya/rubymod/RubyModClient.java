@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
+import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.block.entity.ModBlockEntities;
 import net.surya.rubymod.block.entity.renderer.GemPolishingBlockEntityRenderer;
@@ -44,6 +45,8 @@ public class RubyModClient implements ClientModInitializer {
                 GemPolishingBlockEntityRenderer::new);
 
         TerraformBoatClientHelper.registerModelLayers(ModBoats.HAZELNUT_BOAT_ID, false);
+
+        EntityRendererRegistry.register(ModEntities.DICE_PROJECTILE, FlyingItemEntityRenderer::new);
 
 //        SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE,
         //    ModBlocks.HAZELNUT_SIGN_TEXTURE));

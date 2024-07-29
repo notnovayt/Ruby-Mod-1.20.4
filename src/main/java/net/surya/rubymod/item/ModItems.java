@@ -13,6 +13,7 @@ import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.entity.ModBoats;
 import net.surya.rubymod.entity.ModEntities;
+import net.surya.rubymod.item.custom.DiceItem;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
 import net.surya.rubymod.item.custom.ModArmorItem;
 import net.surya.rubymod.item.custom.ModFoodComponents;
@@ -71,6 +72,9 @@ public class ModItems {
             ModBoats.HAZELNUT_BOAT_KEY, false);
     public static final Item HAZELNUT_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.HAZELNUT_CHEST_BOAT_ID,
             ModBoats.HAZELNUT_BOAT_KEY, true);
+
+    public static final Item DICE = registerItem("dice",
+            new DiceItem(new FabricItemSettings()));
 
 //    public static final Item HAZELNUT_SIGN = registerItem("hazelnut_sign",
 //            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_HAZELNUT_SIGN, ModBlocks.WALL_HAZELNUT_SIGN));

@@ -90,6 +90,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HAZELNUT_BOAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.HAZELNUT_CHEST_BOAT, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.DICE, Models.GENERATED);
+
 //      itemModelGenerator.register(ModItems.HANGING_HAZELNUT_SIGN, Models.GENERATED);
     }
 }

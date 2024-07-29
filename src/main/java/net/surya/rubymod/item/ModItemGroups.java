@@ -52,6 +52,8 @@ public class ModItemGroups {
                         entries.add(ModItems.HAZELNUT_BOAT);
                         entries.add(ModItems.HAZELNUT_CHEST_BOAT);
 
+                        entries.add(ModItems.DICE);
+
 //                        entries.add(ModItems.HAZELNUT_SIGN);
 //                        entries.add(ModItems.HANGING_HAZELNUT_SIGN);
 

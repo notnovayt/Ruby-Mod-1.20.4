@@ -1,8 +1,9 @@
-// 1.20.2	2024-07-27T21:51:23.5195354	Ruby Mod/Block Loot Tables
+// 1.20.2	2024-07-28T22:08:14.1353198	Ruby Mod/Block Loot Tables
 c87fb684e72397908833355b94c570f6f739c7fc data\rubymod\loot_tables\blocks\ruby_pressure_plate.json
 d019bc7f9c7daa574306ff50c155e49b1f698546 data\rubymod\loot_tables\blocks\corn_crop.json
 79176ca267c3b995f5383baedf2275b598e3c727 data\rubymod\loot_tables\blocks\ruby_door.json
 bacf9678b363873c0f67f22f6a95f9965c78cd92 data\rubymod\loot_tables\blocks\raw_ruby_block.json
+2b2a4bde1a1c86393b28fa3ff9b81ef1ddeed22d data\rubymod\loot_tables\blocks\dice_block.json
 79fb257729cd81c7cc9b139548caf765aa4b875d data\rubymod\loot_tables\blocks\ruby_slab.json
 850ef372996314637bedd0b2af56f593f81b1f84 data\rubymod\loot_tables\blocks\dahlia.json
 3585007aaaf4588f323f2881b7b066464a2f5131 data\rubymod\loot_tables\blocks\stripped_hazelnut_wood.json

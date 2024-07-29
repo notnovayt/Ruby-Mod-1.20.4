@@ -74,6 +74,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_HAZELNUT_WOOD);
         addDrop(ModBlocks.HAZELNUT_PLANKS);
 
+        addDrop(ModBlocks.DICE_BLOCK);
+
         addDrop(ModBlocks.HAZELNUT_LEAVES, leavesDrops(ModBlocks.HAZELNUT_LEAVES, ModBlocks.RUBY_SLAB, 0.0025f));
     }
 

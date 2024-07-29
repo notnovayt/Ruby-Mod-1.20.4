@@ -12,10 +12,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.surya.rubymod.RubyMod;
-import net.surya.rubymod.block.custom.CornCropBlock;
-import net.surya.rubymod.block.custom.GemPolishingStationBlock;
-import net.surya.rubymod.block.custom.SoundBlock;
-import net.surya.rubymod.block.custom.TomatoCropBlock;
+import net.surya.rubymod.block.custom.*;
 import net.surya.rubymod.sound.ModSounds;
 
 public class ModBlocks {
@@ -87,6 +84,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
     public static final Block HAZELNUT_LEAVES = registerBlock("hazelnut_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
+
+    public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(RubyMod.MOD_ID, "dice_block"),
+            new DiceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
 //    public static final Identifier HAZELNUT_SIGN_TEXTURE = new Identifier(RubyMod.MOD_ID, "entity/signs/hazelnut");
 //  public static final Identifier HAZELNUT_HANGING_SIGN_TEXTURE = new Identifier(RubyMod.MOD_ID, "entity/signs/hanging/hazelnut");
