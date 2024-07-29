@@ -19,6 +19,7 @@ import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.util.ModCustomTrades;
 import net.surya.rubymod.util.ModLootTableModifiers;
 import net.surya.rubymod.villager.ModVillagers;
+import net.surya.rubymod.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -62,5 +63,7 @@ public class RubyMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HAZELNUT_LEAVES, 30, 60);
 
 		ModBoats.registerBoats();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

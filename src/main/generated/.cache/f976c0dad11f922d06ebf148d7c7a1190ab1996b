@@ -1,4 +1,4 @@
-// 1.20.2	2024-07-28T22:08:14.1173509	Ruby Mod/Model Definitions
+// 1.20.2	2024-07-29T20:28:43.5074299	Ruby Mod/Model Definitions
 c6e7c1ff33ef0943e84cf4a532fb4ed383a9225d assets\rubymod\models\item\ruby_leggings_redstone_trim.json
 5df0918e75ed99fd607d9d242738100aba92eed3 assets\rubymod\models\item\tomato_seeds.json
 e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets\rubymod\models\item\ruby_shovel.json
@@ -144,8 +144,8 @@ d7d948680698c995c2da15e3e5d182c11c5b7965 assets\rubymod\blockstates\ruby_stairs.
 b8685277f7ad240380404c8caca5944bb5b8cfe4 assets\rubymod\models\block\ruby_fence_gate_wall_open.json
 67208f462be0daf466d452ab4f0d7743b215d277 assets\rubymod\models\block\tomato_crop_stage4.json
 bcc1293e9ab50d20057dbf231f2ccd09cbd4ccc2 assets\rubymod\models\block\ruby_door_bottom_right_open.json
-e7ca7b79ba1043e6f2917fb22557a4610be6d35c assets\rubymod\blockstates\ruby_block.json
 f195d4a32f4f789407b2e1f920faa90385155841 assets\rubymod\blockstates\stripped_hazelnut_wood.json
+e7ca7b79ba1043e6f2917fb22557a4610be6d35c assets\rubymod\blockstates\ruby_block.json
 a0d713013f40c84d8bbd906c5a3a664e0ae6c0e6 assets\rubymod\models\item\dice.json
 8b74d3096309f19b9a0b631b44dba0979d880098 assets\rubymod\blockstates\hazelnut_leaves.json
 990dd594104613454e702ecff3ef0dfa5525d551 assets\rubymod\models\block\hazelnut_wood.json
