@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "rubymod:block/hazelnut_sapling"
+  }
+}

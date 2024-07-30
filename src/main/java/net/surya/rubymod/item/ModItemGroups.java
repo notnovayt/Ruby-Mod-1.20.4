@@ -84,6 +84,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_HAZELNUT_WOOD);
                         entries.add(ModBlocks.STRIPPED_HAZELNUT_LOG);
                         entries.add(ModBlocks.HAZELNUT_WOOD);
+                        entries.add(ModBlocks.HAZELNUT_SAPLING);
 
                     }).build());
 

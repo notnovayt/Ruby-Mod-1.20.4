@@ -14,6 +14,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.custom.*;
 import net.surya.rubymod.sound.ModSounds;
+import net.surya.rubymod.world.tree.HazelnutSaplingGenerator;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -88,6 +89,9 @@ public class ModBlocks {
     public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK,
             new Identifier(RubyMod.MOD_ID, "dice_block"),
             new DiceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block HAZELNUT_SAPLING = registerBlock("hazelnut_sapling",
+            new SaplingBlock(new HazelnutSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
 //    public static final Identifier HAZELNUT_SIGN_TEXTURE = new Identifier(RubyMod.MOD_ID, "entity/signs/hazelnut");
 //  public static final Identifier HAZELNUT_HANGING_SIGN_TEXTURE = new Identifier(RubyMod.MOD_ID, "entity/signs/hanging/hazelnut");

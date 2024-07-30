@@ -55,6 +55,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_HAZELNUT_LOG).log(ModBlocks.STRIPPED_HAZELNUT_LOG).wood(ModBlocks.STRIPPED_HAZELNUT_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZELNUT_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HAZELNUT_PLANKS);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.HAZELNUT_SAPLING, BlockStateModelGenerator.TintType.TINTED);
 
 //        BlockStateModelGenerator.BlockTexturePool hazelnut_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HAZELNUT_PLANKS);
 //        hazelnut_pool.family(ModBlocks.HAZELNUT_FAMILY);
