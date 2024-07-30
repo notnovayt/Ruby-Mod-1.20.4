@@ -14,9 +14,9 @@ import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
-import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.world.tree.custom.HazelnutTrunkPlacer;
 
 import java.util.List;
 
@@ -49,7 +49,7 @@ public class ModConfiguredFeatures {
 
         register(context, HAZELNUT_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.HAZELNUT_LOG),
-                new StraightTrunkPlacer(4, 4, 3),
+                new HazelnutTrunkPlacer(5, 4, 3),
 
                 BlockStateProvider.of(ModBlocks.HAZELNUT_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),

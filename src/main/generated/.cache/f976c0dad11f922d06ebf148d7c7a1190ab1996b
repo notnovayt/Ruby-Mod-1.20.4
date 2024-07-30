@@ -1,4 +1,4 @@
-// 1.20.2	2024-07-30T19:08:35.8180702	Ruby Mod/Model Definitions
+// 1.20.2	2024-07-30T20:47:07.5824756	Ruby Mod/Model Definitions
 c6e7c1ff33ef0943e84cf4a532fb4ed383a9225d assets\rubymod\models\item\ruby_leggings_redstone_trim.json
 5df0918e75ed99fd607d9d242738100aba92eed3 assets\rubymod\models\item\tomato_seeds.json
 e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets\rubymod\models\item\ruby_shovel.json
@@ -46,9 +46,9 @@ a9c0cad44ee91484351e295e9741a7ab03039d8c assets\rubymod\models\block\corn_crop_s
 8c5a78e1a58c91ded47639a642d65f93760df2bb assets\rubymod\models\block\ruby_wall_post.json
 c1fa3b8124016e48d328cc10a58ac8ce6d4fdb20 assets\rubymod\models\item\ruby_helmet_copper_trim.json
 e49e61ac65c527ea49473130ea2c33808ab3cc7c assets\rubymod\models\block\ruby_fence_side.json
-95496874afba921ad9521e628eff109d4c1577d5 assets\rubymod\models\item\end_stone_ruby_ore.json
 920845f24b7a838369656fd18c23205d64b67974 assets\rubymod\models\item\ruby.json
 3fa7edffb6ee948db5055e1097a33d1ba210c880 assets\rubymod\models\item\ruby_ore.json
+95496874afba921ad9521e628eff109d4c1577d5 assets\rubymod\models\item\end_stone_ruby_ore.json
 1c6ad5fe7bf1668a0be86a68669ef3f4d3594874 assets\rubymod\models\item\coal_briquette.json
 1369aba3c251583acde292f2a24067fe6b02abc5 assets\rubymod\models\item\ruby_boots_quartz_trim.json
 b135db3e68cb613f33d102fb8bbacf63b3db48cf assets\rubymod\blockstates\end_stone_ruby_ore.json
