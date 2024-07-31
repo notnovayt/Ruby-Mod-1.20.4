@@ -20,6 +20,7 @@ import net.surya.rubymod.util.ModCustomTrades;
 import net.surya.rubymod.util.ModLootTableModifiers;
 import net.surya.rubymod.villager.ModVillagers;
 import net.surya.rubymod.world.gen.ModWorldGeneration;
+import net.surya.rubymod.world.tree.ModFoliagePlacerTypes;
 import net.surya.rubymod.world.tree.ModTrunkPlacerTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -51,6 +52,7 @@ public class RubyMod implements ModInitializer {
 		ModScreenHandlers.registerScreenHandlers();
 
 		ModTrunkPlacerTypes.register();
+		ModFoliagePlacerTypes.register();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 
