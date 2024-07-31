@@ -7,6 +7,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.surya.rubymod.datagen.*;
 import net.surya.rubymod.world.ModConfiguredFeatures;
 import net.surya.rubymod.world.ModPlacedFeatures;
+import net.surya.rubymod.world.biome.ModBiomes;
 
 public class RubyModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -25,5 +26,6 @@ public class RubyModDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::boostrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::boostrap);
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::boostrap);
 	}
 }

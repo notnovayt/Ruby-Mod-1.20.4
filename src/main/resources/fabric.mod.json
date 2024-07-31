@@ -26,6 +26,9 @@
 		],
 		"rei_client": [
 			"net.surya.rubymod.compat.RubyModREIClientPlugin"
+		],
+		"terrablender": [
+			"net.surya.rubymod.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [
