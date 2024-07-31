@@ -6,6 +6,8 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
+import net.minecraft.util.Identifier;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.block.entity.ModBlockEntities;
 import net.surya.rubymod.entity.ModBoats;
@@ -70,5 +72,12 @@ public class RubyMod implements ModInitializer {
 		ModBoats.registerBoats();
 
 		ModWorldGeneration.generateModWorldGen();
+
+		CustomPortalBuilder.beginPortal()
+				.frameBlock(ModBlocks.RUBY_BLOCK)
+				.lightWithItem(ModItems.RUBY_STAFF)
+				.destDimID(new Identifier(RubyMod.MOD_ID, "suryadim"))
+				.tintColor(0xc76efa)
+				.registerPortal();
 	}
 }

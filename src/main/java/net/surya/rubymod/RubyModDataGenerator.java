@@ -8,6 +8,7 @@ import net.surya.rubymod.datagen.*;
 import net.surya.rubymod.world.ModConfiguredFeatures;
 import net.surya.rubymod.world.ModPlacedFeatures;
 import net.surya.rubymod.world.biome.ModBiomes;
+import net.surya.rubymod.world.dimension.ModDimensions;
 
 public class RubyModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -27,5 +28,6 @@ public class RubyModDataGenerator implements DataGeneratorEntrypoint {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::boostrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::boostrap);
 		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::boostrap);
+		registryBuilder.addRegistry(RegistryKeys.DIMENSION_TYPE, ModDimensions::bootstrapType);
 	}
 }
