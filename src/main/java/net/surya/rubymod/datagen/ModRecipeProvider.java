@@ -204,5 +204,55 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModBlocks.HAZELNUT_PLANKS)
                 .criterion("has_hazelnut_planks", conditionsFromItem(ModBlocks.HAZELNUT_PLANKS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HAZELNUT_BOAT)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COAL_BRIQUETTE)
+                .pattern("C C")
+                .pattern(" C ")
+                .pattern("   ")
+                .input('C', Items.COAL)
+                .criterion("has_coal", conditionsFromItem(Items.COAL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COAL_BRIQUETTE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.METAL_DETECTOR)
+                .pattern("I  ")
+                .pattern(" I ")
+                .pattern("  L")
+                .input('I', Items.IRON_INGOT)
+                .input('L', Items.LIGHTNING_ROD)
+                .criterion("has_lightning_rod", conditionsFromItem(Items.LIGHTNING_ROD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.METAL_DETECTOR)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.SOUND_BLOCK)
+                .pattern("CCC")
+                .pattern("CNC")
+                .pattern("CCC")
+                .input('C', Items.WHITE_CONCRETE)
+                .input('N', Items.NOTE_BLOCK)
+                .criterion("has_note_block", conditionsFromItem(Items.NOTE_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SOUND_BLOCK)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY_STAFF)
+                .pattern("  R")
+                .pattern(" I ")
+                .pattern("I  ")
+                .input('R', ModItems.RUBY)
+                .input('I', Items.IRON_INGOT)
+                .criterion("has_ruby", conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_STAFF)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.PINK_DYE)
+                .input(ModBlocks.DAHLIA)
+                .criterion("has_dahlia", conditionsFromItem(ModBlocks.DAHLIA))
+                .offerTo(exporter, new Identifier(getRecipeName(Items.PINK_DYE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.GEM_POLISHING_STATION)
+                .pattern("   ")
+                .pattern("PPP")
+                .pattern("WSW")
+                .input('W', Items.WHITE_CONCRETE)
+                .input('S', Items.STONECUTTER)
+                .input('P', Items.POLISHED_BLACKSTONE_SLAB)
+                .criterion("has_stonecutter", conditionsFromItem(Items.STONECUTTER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GEM_POLISHING_STATION)));
     }
 }

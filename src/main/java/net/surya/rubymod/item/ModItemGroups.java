@@ -20,8 +20,6 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COAL_BRIQUETTE);
 
-                        entries.add(ModItems.TOMATO);
-
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
@@ -40,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
 
+                        entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TOMATO_SEEDS);
 
                         entries.add(ModItems.CORN);

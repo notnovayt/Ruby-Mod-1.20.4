@@ -18,7 +18,7 @@ public class ModDimensions {
     public static final RegistryKey<DimensionOptions> SURYADIM_KEY = RegistryKey.of(RegistryKeys.DIMENSION,
             new Identifier(RubyMod.MOD_ID, "suryadim"));
     public static final RegistryKey<World> SURYADIM_LEVEL_KEY = RegistryKey.of(RegistryKeys.WORLD,
-            new Identifier(RubyMod.MOD_ID, "suryadim_level"));
+            new Identifier(RubyMod.MOD_ID, "suryadim"));
     public static final RegistryKey<DimensionType> SURYA_DIM_TYPE = RegistryKey.of(RegistryKeys.DIMENSION_TYPE,
             new Identifier(RubyMod.MOD_ID, "suryadim_type"));
 
