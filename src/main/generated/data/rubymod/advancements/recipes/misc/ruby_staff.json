@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:ruby_staff"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

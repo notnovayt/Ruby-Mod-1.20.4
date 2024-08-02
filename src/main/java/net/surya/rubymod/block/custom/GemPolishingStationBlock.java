@@ -1,5 +1,6 @@
 package net.surya.rubymod.block.custom;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityTicker;
@@ -21,8 +22,15 @@ import org.jetbrains.annotations.Nullable;
 public class GemPolishingStationBlock extends BlockWithEntity implements BlockEntityProvider {
     private static final VoxelShape SHAPE = GemPolishingStationBlock.createCuboidShape(0,0,0,16,12,16);
 
+    public static final MapCodec<GemPolishingStationBlock> CODEC = GemPolishingStationBlock.createCodec(GemPolishingStationBlock::new);
+
     public GemPolishingStationBlock(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    protected MapCodec<? extends BlockWithEntity> getCodec() {
+        return CODEC;
     }
 
     @Override

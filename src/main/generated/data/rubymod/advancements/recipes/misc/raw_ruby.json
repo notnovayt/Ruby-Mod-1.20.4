@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:raw_ruby"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

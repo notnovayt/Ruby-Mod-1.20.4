@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:coal_briquette"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

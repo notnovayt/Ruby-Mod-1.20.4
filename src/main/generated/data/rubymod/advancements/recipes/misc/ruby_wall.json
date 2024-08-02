@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:ruby_wall"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

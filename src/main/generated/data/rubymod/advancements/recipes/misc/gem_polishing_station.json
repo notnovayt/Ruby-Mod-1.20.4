@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:gem_polishing_station"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

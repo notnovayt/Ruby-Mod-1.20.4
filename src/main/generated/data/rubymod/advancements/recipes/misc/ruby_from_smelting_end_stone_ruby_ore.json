@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:ruby_from_smelting_end_stone_ruby_ore"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

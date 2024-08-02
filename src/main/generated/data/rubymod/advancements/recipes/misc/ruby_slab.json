@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:ruby_slab"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
