@@ -1,9 +1,9 @@
-// 1.20.4	2024-08-01T22:11:01.0165518	Ruby Mod/Tags for minecraft:block
+// 1.20.4	2024-08-19T17:41:56.8722706	Ruby Mod/Tags for minecraft:block
 b2738a64189dffe6d939aa752bc0bba30cd441ee data\minecraft\tags\blocks\walls.json
-da7abe66afae3192eaf40b6e6b9a27feb00cc106 data\minecraft\tags\blocks\mineable\pickaxe.json
+2be51ed53b206ec2e583654ac45abfbbbf5cf14a data\minecraft\tags\blocks\mineable\pickaxe.json
 e667d7ad84a1d238646ed1a373f8b41336018c41 data\minecraft\tags\blocks\fences.json
 6e66dfa00e4c2fc577ee11116d735499879d60e4 data\minecraft\tags\blocks\logs_that_burn.json
 eceaf4ad0bcb24189110b8aa38477a8881dac802 data\rubymod\tags\blocks\metal_detector_detectable_blocks.json
 96c5cfc3325be7824ae4de962f13cbae9c9b6479 data\minecraft\tags\blocks\fence_gates.json
 f264bf21f9f0bbe3e5cd8eef4ecda191777c8338 data\fabric\tags\blocks\needs_tool_level_5.json
-2be51ed53b206ec2e583654ac45abfbbbf5cf14a data\minecraft\tags\blocks\needs_iron_tool.json
+688b6eba3ff4f404741476f985d6b78efb99c92a data\minecraft\tags\blocks\needs_iron_tool.json

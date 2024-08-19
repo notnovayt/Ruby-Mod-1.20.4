@@ -1,4 +1,4 @@
-// 1.20.4	2024-08-01T22:11:01.0180015	Ruby Mod/Recipes
+// 1.20.4	2024-08-19T17:41:56.8727792	Ruby Mod/Recipes
 2c279f1dd772bedc8cb33f06515a12e670798e9b data\rubymod\recipes\coal_briquette.json
 fb9a9b462e9be8d5f4e7d3d09d72d3ba21ab7d04 data\rubymod\recipes\ruby_axe.json
 feacb14f727dccfaf281b3acd6d751adfa8a4b49 data\rubymod\recipes\ruby_staff.json
@@ -34,10 +34,11 @@ d210595a8898955d5dc1d51e750f4f47a092d51e data\rubymod\advancements\recipes\misc\
 beaa3c2e53b8cf1924ca6de1812aa00a774d66ec data\rubymod\recipes\hazelnut_planks.json
 0f0e2cbbd25b770b8d8b245493e7a9ebd4631855 data\rubymod\recipes\ruby_block.json
 fdc5d75b5df8ce0cbb87387616bd65e91de97de1 data\rubymod\advancements\recipes\misc\pink_dye.json
+66916c0feb3d1dd03e63e60e1622ccd93ad9ae8a data\rubymod\advancements\recipes\misc\ruby_from_blasting_raw_ruby_block.json
 df3cabc595ab224c3bc5566542f7eb7542d8e9a5 data\rubymod\advancements\recipes\tools\ruby_pickaxe.json
 a5982a6c59aeaae5cdb0219a50595ccda017207c data\rubymod\recipes\ruby_from_blasting_ruby_ore.json
 f075f92eb990dff9aa287c98c4b2c4b101dbd377 data\rubymod\recipes\ruby_wall.json
-d58e3b48e9594e3d4011212e69bcba345baafa51 data\rubymod\recipes\raw_ruby.json
+f508254807be6bcebd3c5bd0ae8f69c491624437 data\rubymod\recipes\raw_ruby.json
 60d4fe14a71c08e4be6bdd477aaf6cce4b14fdd8 data\rubymod\recipes\hazelnut_chest_boat.json
 fe0a2376ff5234616fb23539d449929d540905a6 data\rubymod\recipes\ruby_from_smelting_end_stone_ruby_ore.json
 5e1fb11085952906b86e26383f8c8241a3a77308 data\rubymod\recipes\ruby_shovel.json
@@ -48,8 +49,10 @@ fb2572b033b85447ab93f08d46c80fd01364921c data\rubymod\recipes\ruby_hoe.json
 40d241fc1347e97c9a0da0cd8922122fa8c9f7af data\rubymod\advancements\recipes\tools\ruby_shovel.json
 f0420ea178165255477a3bf42df06d3361d8f743 data\rubymod\advancements\recipes\transportation\hazelnut_chest_boat.json
 75db2fc0dacc1f8442ac261ddfeb0381c1f9a57d data\rubymod\recipes\ruby_from_blasting_nether_ruby_ore.json
+8e1189491ce4141187a93c30931e585ae31f62e8 data\rubymod\advancements\recipes\misc\ruby_from_smelting_raw_ruby_block.json
 ea68a222da31fc1df3011450cd1c31466fd738a6 data\rubymod\advancements\recipes\misc\ruby_pressure_plate.json
 1dd7e7a237f1a7a57fc42c2788b238e93158f28f data\rubymod\advancements\recipes\misc\ruby_leggings.json
+e0510dc7027e112e6830adc42810ff7fa577c756 data\rubymod\recipes\ruby_from_smelting_raw_ruby_block.json
 5993d0640074251310d98d898b0987626b17ed74 data\rubymod\recipes\hazelnut_boat.json
 ffa325ffb718a92152b3f2b18081c0cdc0b85420 data\rubymod\advancements\recipes\tools\ruby_sword.json
 cf3fdc8ba2c8e83919bb556a8367b35fb47db37f data\rubymod\recipes\ruby_from_smelting_ruby_ore.json
@@ -61,6 +64,7 @@ aa88761e539cba349d44b3b55d2996873918de37 data\rubymod\advancements\recipes\tools
 5fb03127a3776f1a35bac59a4749053e3be891fa data\rubymod\recipes\ruby_button.json
 78d40561bfe5ae08fa9e6f9660cd699dbd08424d data\rubymod\advancements\recipes\misc\ruby_button.json
 8cec5ffc33f0f97d341509e68958c0622e22655d data\rubymod\recipes\ruby_trapdoor.json
+1c459ec95de119d48d2f077f4c7458e35a5497ab data\rubymod\recipes\ruby_from_blasting_raw_ruby_block.json
 dd22640f1dbc9d0b23d006ebd0cba15f268b8a6f data\rubymod\advancements\recipes\misc\ruby_from_smelting_nether_ruby_ore.json
 3fbfa1837d25a5649c8162663b382d3dc6f6c31d data\rubymod\recipes\ruby_slab.json
 33d5c58c708f0fdcf1d6275cd8cbf36c82ecb22c data\rubymod\advancements\recipes\misc\ruby_from_smelting_end_stone_ruby_ore.json
