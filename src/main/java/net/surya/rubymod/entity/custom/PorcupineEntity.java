@@ -24,7 +24,6 @@ import net.minecraft.world.World;
 import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.entity.ai.PorcupineAttackGoal;
 import org.jetbrains.annotations.Nullable;
-import org.spongepowered.asm.mixin.injection.selectors.ITargetSelector;
 
 public class PorcupineEntity extends AnimalEntity {
     private static final TrackedData<Boolean> ATTACKING =
