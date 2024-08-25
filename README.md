@@ -12,4 +12,6 @@ You shouldn't have any mod conflicts as I've tested it with Sodium, Iris, and a 
 # Additions:
 ![image](https://github.com/user-attachments/assets/4ace877b-efb6-4bff-ba41-6a7e117ccb86)
 
-The image shows all the stuff that has been added to the game by this mod!
+![image](https://github.com/user-attachments/assets/9510885e-8c06-4827-868c-53b47fd97a65)
+
+These images show all the stuff that has been added to the game by this mod!
